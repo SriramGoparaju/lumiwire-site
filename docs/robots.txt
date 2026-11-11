@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sriramgoparaju.github.io/lumiwire-site/sitemap.xml

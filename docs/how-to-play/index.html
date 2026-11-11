@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to play Lumiwire</title>
+<meta name="description" content="The rules of Lumiwire, every obstacle (dead chips, cut traces, fuses, relays, soldered traces, bridges, vias, wrap-around edges), stars, Journey, Daily and Blitz.">
+<link rel="canonical" href="https://sriramgoparaju.github.io/lumiwire-site/how-to-play/">
+<meta property="og:title" content="How to play Lumiwire">
+<meta property="og:description" content="The rules of Lumiwire, every obstacle (dead chips, cut traces, fuses, relays, soldered traces, bridges, vias, wrap-around edges), stars, Journey, Daily and Blitz.">
+<meta property="og:image" content="https://sriramgoparaju.github.io/lumiwire-site/assets/icon-512.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F3F1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0D11" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="../assets/icon-192.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../assets/icon-192.png" alt="" width="36" height="36">Lumiwire</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../how-to-play/" aria-current="page">How to play</a>
+      <a href="../support/">Support</a>
+      <a href="../privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<div class="wrap">
+  <p class="crumbs"><a href="../">Home</a> / How to play</p>
+  <section class="page-head"><h1>How to play</h1>
+    <p class="essence">One rule set, eight twists, three stars.</p></section>
+
+  <section class="section basics" aria-labelledby="h-rules">
+    <div>
+      <h2 id="h-rules">The rules</h2>
+      <ol class="rules"><li>Each pair of sockets has its own colour and its own symbol. Drag from one socket to its twin to lay a wire between them.</li><li>Wires run along the grid, never diagonally. They never cross each other and never pass through another pair&#x27;s socket.</li><li>Drag through another wire to cut it: the cut part springs back. Drag from the middle of one of your wires to re-route it from there.</li><li>The board is complete when every pair is joined and every cell is covered.</li><li>Undo, Redo and Clear sit under the board. There are no wrong moves, no lives and no time limit in the Journey.</li></ol>
+    </div>
+    <img class="board-pic" src="../assets/board-basics.webp" alt="Level 1: a five-by-five board with four pairs of sockets, each with its own colour and symbol." width="600" height="600">
+  </section>
+
+  <section class="section" aria-labelledby="h-obstacles">
+    <h2 id="h-obstacles">Obstacles</h2>
+    <p class="intro">From Chapter 2 on, every chapter adds one new piece of circuitry. Each one arrives on an easy board with a one-line tip, and none of them hides anything: everything you need to solve a board is on it.</p>
+    <div class="obstacles"><div class="obstacle"><img src="../assets/obstacle-dead.webp" alt="A dark board with four dead chips: square dark blocks in four cells." width="600" height="600" loading="lazy"><span class="tag">Chapter 2 · from level 51</span><h3>Dead chips</h3><p>Dark blocks that are not part of the board. Wires go around them, and they cut boards into new shapes.</p></div><div class="obstacle"><img src="../assets/obstacle-cut.webp" alt="A board with short dashed marks on three cell edges; the wires route around them." width="600" height="600" loading="lazy"><span class="tag">Chapter 3 · from level 101</span><h3>Cut traces</h3><p>A broken-trace mark on the edge between two cells. No wire may cross that edge, but both cells still need filling.</p></div><div class="obstacle"><img src="../assets/obstacle-fuse.webp" alt="A board with one dark socket carrying a fuse mark and a small green triangle, the pair that powers it." width="600" height="600" loading="lazy"><span class="tag">Chapter 4 · from level 151</span><h3>Fuses</h3><p>A fused socket starts dark and shows the symbol of the pair that powers it. Connect that pair and the fuse blows: the socket lights up in its own colour, ready to be wired.</p></div><div class="obstacle"><img src="../assets/obstacle-relay.webp" alt="A board with diamond-shaped pads; the red and green wires pass through the diamonds in their own colour." width="600" height="600" loading="lazy"><span class="tag">Chapter 5 · from level 201</span><h3>Relays</h3><p>A diamond pad ringed in one colour. Only that colour&#x27;s wire may pass through it, and that wire must.</p></div><div class="obstacle"><img src="../assets/obstacle-solder.webp" alt="A board with a short blue wire segment already laid in the top right corner." width="600" height="600" loading="lazy"><span class="tag">Chapter 6 · from level 251</span><h3>Soldered traces</h3><p>A few cells of a wire already laid, with a joint at each end. They can&#x27;t be cut or cleared, and their pair&#x27;s wire has to run through them.</p></div><div class="obstacle"><img src="../assets/obstacle-bridge.webp" alt="A solved light board where a green wire crosses over a dark blue wire on a bridge near the bottom right." width="600" height="600" loading="lazy"><span class="tag">Chapter 7 · from level 301</span><h3>Bridges</h3><p>An overpass that takes two wires straight through: one passes under, the other crosses on top.</p></div><div class="obstacle"><img src="../assets/obstacle-via.webp" alt="A light board with two holes marked A; the blue wire enters one and carries on from the other." width="600" height="600" loading="lazy"><span class="tag">Chapter 8 · from level 351</span><h3>Vias</h3><p>Two holes with the same letter. A wire that goes into one comes out of the other, so far-apart parts of the board join up.</p></div><div class="obstacle"><img src="../assets/obstacle-wrap.webp" alt="A solved light board with dashed left and right edges and small arrows where wires leave one side and enter the other." width="600" height="600" loading="lazy"><span class="tag">Chapter 8 · from level 371</span><h3>Wrap-around edges</h3><p>On a board with dashed side edges, a wire leaving the right edge comes back in on the left, and the other way round.</p></div></div>
+  </section>
+
+  <section class="section narrow" aria-labelledby="h-stars">
+    <h2 id="h-stars">Stars</h2>
+    <p class="intro">Stars reward a clean solve, never a fast one. A stroke is one drag, from touching the screen to letting go.</p>
+    <ul class="stars"><li><span class="s" aria-label="3 stars">★★★</span><span>Every wire drawn in one stroke.</span></li><li><span class="s" aria-label="2 stars">★★☆</span><span>Finished any other way: a wire took two strokes, was cut or re-routed.</span></li></ul>
+    <p class="intro" style="margin-top:16px">Replay any level for more stars; your best result is kept. Stars open the later chapters.</p>
+  </section>
+
+  <section class="section" aria-labelledby="h-modes">
+    <h2 id="h-modes">Three ways to play</h2>
+    <div class="modes"><div><h3>Journey</h3><p>The main road: 400 levels in eight chapters. Levels climb gently, every sixth one is a Challenge, and each chapter ends with a boss.</p></div><div><h3>Daily</h3><p>One board a day for everyone, new at 00:00 UTC, using only obstacles you have already met. The timer stays hidden unless you switch it on; your time goes to the Daily leaderboard. Past days wait in the calendar.</p></div><div><h3>Blitz</h3><p>Opens after Journey level 10. Solve as many tiny boards as you can in 60 seconds: 4×4, then 5×5, then 6×6. A board drawn in one stroke per wire adds two seconds. Everyone gets the same boards each day.</p></div></div>
+  </section>
+
+  <section class="section narrow" aria-labelledby="h-chapters">
+    <h2 id="h-chapters">The chapters</h2>
+    <p class="intro">Fifty levels each, getting gently harder, with a Challenge every sixth level and a boss at the end. A chapter opens when the previous boss is beaten and you have enough stars.</p>
+    <ul class="chapters"><li><strong>Mainboard</strong>, levels 1–50: the basics</li><li><strong>Power Grid</strong>, levels 51–100: dead chips and rectangular boards</li><li><strong>Neon District</strong>, levels 101–150: cut traces</li><li><strong>Server Farm</strong>, levels 151–200: fuses</li><li><strong>Orbit</strong>, levels 201–250: relays</li><li><strong>Deep Core</strong>, levels 251–300: soldered traces</li><li><strong>Quantum</strong>, levels 301–350: bridges</li><li><strong>Nebula</strong>, levels 351–400: vias and wrap-around edges</li></ul>
+  </section>
+</div>
+
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="../how-to-play/">How to play</a>
+      <a href="../support/">Support</a>
+      <a href="../privacy/">Privacy policy</a>
+      <a href="../terms/">Terms of use</a>
+      <a href="../delete-account/">Delete your account</a>
+    </div>
+    <p>Lumiwire: Connect Wire Puzzle · published by Sriram Goparaju · <a href="mailto:sriramgoparaju99@gmail.com">sriramgoparaju99@gmail.com</a></p>
+    <p>© 2026 Sriram Goparaju. App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</p>
+  </div>
+</footer>
+</body>
+</html>

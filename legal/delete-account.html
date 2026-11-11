@@ -1,0 +1,34 @@
+<h1>Delete your Lumiwire account</h1>
+<p class="updated">Last updated {{UPDATED}}</p>
+
+<p class="lede">You can delete your Lumiwire account and everything stored with it at any time, for any reason, from inside the app. It takes effect at once, and it cannot be undone.</p>
+
+<div class="box">
+  <p><strong>In the app: Settings → Delete account.</strong></p>
+  <p>The app asks twice ("Delete account?", then "Delete everything?"). It needs an internet connection: if you are offline, nothing is deleted and the app tells you so. When it is done, the app starts again as a new player, with a new anonymous account. Nothing is queued, reviewed or delayed.</p>
+</div>
+
+<h2>What gets deleted</h2>
+<ul>
+  <li>Your cloud save: your display name, your progress (stars, levels, Daily solves and times, Blitz results), your settings, and, once the Shop arrives, your coins, your items and the purchase records kept in it.</li>
+  <li>Your row on every leaderboard your account wrote: the Daily, Blitz today and Blitz week boards, past days and weeks included.</li>
+  <li>The anonymous account itself, in Firebase Authentication.</li>
+  <li>Everything Lumiwire kept on your phone: progress, settings, your display name and any results still waiting to be sent.</li>
+</ul>
+
+<h2>What is kept, and why</h2>
+<ul>
+  <li><strong>Crash reports</strong> carry no account identifier and cannot be traced back to you. Crashlytics deletes them after 90 days.</li>
+  <li><strong>Usage statistics</strong> (Firebase Analytics, collected only after consent) are recorded against Analytics' own identifier for the installation, not against your account. Deleting the account does not remove events already recorded, but nothing connects them to an account any more. They expire on Google's schedule, at most fourteen months.</li>
+  <li><strong>Purchase records</strong> are kept by Google Play or the App Store, and by RevenueCat on our behalf, for their accounting and tax records. They carry only an anonymous identifier. Remove Ads belongs to your store account, so "Restore purchases" brings it back even after you delete your Lumiwire account.</li>
+  <li><strong>Coins and items</strong> are deleted with the account, and are not refunded.</li>
+</ul>
+
+<h2>If you no longer have the app</h2>
+<p>Lumiwire accounts are anonymous: no name, email address or phone number is attached to them. Without the app on your phone, neither we nor anyone else can tell which account was yours, and once the app is uninstalled its account can no longer be reached from any phone. What such an account leaves behind holds no personal detail except the display name on your leaderboard rows.</p>
+<p>If you want those leaderboard rows removed, email <a href="mailto:{{EMAIL}}?subject=Delete%20my%20Lumiwire%20rows">{{EMAIL}}</a> with "Delete my Lumiwire rows" in the subject line, the display name you used, and roughly when you played. We reply to confirm, and delete the matching rows within 30 days. If the app is still on your phone, Delete account in Settings is quicker and removes everything.</p>
+
+<h2>Resetting is not deleting</h2>
+<p>Settings → Reset progress only starts the Journey over: stars and levels go back to the beginning, on your phone and in your cloud save. Your account, your display name, and your Daily and Blitz records stay.</p>
+
+<p class="muted">Lumiwire · published by Sriram Goparaju · <a href="{{PRIVACY}}">Privacy policy</a> · <a href="{{TERMS}}">Terms of use</a></p>
