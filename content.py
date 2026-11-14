@@ -7,9 +7,9 @@ PLAY_URL = "https://play.google.com/store/apps/details?id=com.lumiwire.app"
 APP_STORE_URL = ""                             # set on launch day (App Store Connect app id)
 UPDATED = "11 November 2026"                   # "Last updated" on the legal pages
 
-# Ads, hints, coins for sale and purchases arrive with Phase 10. Until that build reaches
-# testers, the site says so; flip to True when it does (and rebuild).
-SHOP_LIVE = False
+# Ads, hints, coins for sale and purchases arrived with Phase 10 (Alpha versionCode 4, 14 Nov).
+# False would bring back the "no ads or purchases yet" notes for a build without them.
+SHOP_LIVE = True
 
 FEATURES = [
     ("One answer, always", "Every board is proven by a solver to have exactly one solution, with every obstacle in place. Nothing is hidden and nothing is random, so careful thinking always gets you there."),
